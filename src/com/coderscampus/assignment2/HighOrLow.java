@@ -36,6 +36,6 @@ public class HighOrLow {
 		{
 			System.out.println("you lose");
 			System.out.println("the correct number was : " + randomNum);
-		} // test....
+		} 
 	}
 }
