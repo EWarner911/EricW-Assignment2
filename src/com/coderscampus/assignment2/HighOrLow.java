@@ -13,6 +13,7 @@ public class HighOrLow {
 		int counter = 0;
 		while (counter <= 4) {
 			int userInput = scanner.nextInt();
+			System.out.println(randomNum);
 			if (userInput >= 1 && userInput <= 100) {
 				if (userInput > randomNum) {
 					System.out.println("YOU GUESSED TOO HIGH...PICK A LOWER NUMBER");
@@ -33,9 +34,13 @@ public class HighOrLow {
 
 			}
 		}
+		if (counter >4)
 		{
-			System.out.println("you lose");
-			System.out.println("the correct number was : " + randomNum);
+		System.out.println("you lose");
+		System.out.println("the correct number was : " + randomNum);
+		}
+		{
+			
 		} 
 	}
 }
